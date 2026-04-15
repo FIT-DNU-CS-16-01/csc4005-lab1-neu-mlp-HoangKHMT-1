@@ -1,0 +1,116 @@
+{
+  "best_val_loss": 1.7759426381852892,
+  "best_val_acc": 0.18518518518518517,
+  "test_loss": 1.775460088694537,
+  "test_acc": 0.18888888888888888,
+  "class_names": [
+    "Crazing",
+    "Inclusion",
+    "Patches",
+    "Pitted_Surface",
+    "Rolled-in_Scale",
+    "Scratches"
+  ],
+  "classification_report": {
+    "Crazing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "Inclusion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "Patches": {
+      "precision": 0.6363636363636364,
+      "recall": 0.15555555555555556,
+      "f1-score": 0.25,
+      "support": 45.0
+    },
+    "Pitted_Surface": {
+      "precision": 0.16988416988416988,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.2894736842105263,
+      "support": 45.0
+    },
+    "Rolled-in_Scale": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "Scratches": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "accuracy": 0.18888888888888888,
+    "macro avg": {
+      "precision": 0.13437463437463437,
+      "recall": 0.18888888888888888,
+      "f1-score": 0.08991228070175439,
+      "support": 270.0
+    },
+    "weighted avg": {
+      "precision": 0.13437463437463437,
+      "recall": 0.18888888888888888,
+      "f1-score": 0.08991228070175439,
+      "support": 270.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      38,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      44,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      42,
+      0,
+      0
+    ]
+  ],
+  "resolved_data_dir": "NEU-CLS"
+}
